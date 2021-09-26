@@ -19,4 +19,14 @@ objects = [1, 2, 1, 2, 3] # будем считать, что одинаковы
 различным. Тогда все различные объекты являют собой множество {1, 2, 3}. Таким образом, количество различных объектов
 равно трём.
 '''
-
+objects = [1, 2, 1, 2, 3]
+lst= []
+for obj in objects:
+    flag = False
+    for l in lst:
+        if l is obj:
+            flag = True
+            break
+    if not flag:
+        lst.append(obj)
+print(len(lst))
