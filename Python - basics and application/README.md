@@ -1,5 +1,5 @@
 # Python_basics_n_application
-Python course on stepik.org
+Python course on [stepik.org](https://stepik.org/course/512/syllabus) 
 
 ### Базовые принципы языка Python
 
