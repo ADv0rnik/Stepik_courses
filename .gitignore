@@ -1,3 +1,5 @@
 .idea
 .venv
+.env
 __pycache__/
+/Python - basics and application/3_Text_analysis/.env
